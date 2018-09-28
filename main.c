@@ -71,24 +71,24 @@ void menu(){
 }
 
 int main(){
-//    int x;
-//    printf("Vui lòng nhập số lượng sinh viên: \n");
-//    scanf("%d", &x);
-//    if(x < 1 || x > 50){
-//        printf("vui lòng nhập lại: \n");
-//    }
+    int x;
+    printf("Vui lòng nhập số lượng sinh viên: \n");
+    scanf("%d", &x);
+    if(x < 1 || x > 50){
+        printf("vui lòng nhập lại: \n");
+    }
     menu();
     //Ghi File.
-//    FILE *fp = fopen("danhsachsinhvien.txt", "w+");
-//    sinhvien danhsach;
-//
-//    strcpy(danhsach.ten_sinh_vien, "");
-//    strcpy(danhsach.ma_sinh_vien, "");
-//    strcpy(danhsach.so_dien_thoai_sinh_vien, "");
-//
-//    printf("Tên sinh viên là: %d\n", danhsach.ten_sinh_vien);
-//    printf("Mã sinh viên là: %d\n", danhsach.ma_sinh_vien);
-//    printf("Số điện thoại của sinh viên là: %d", danhsach.so_dien_thoai_sinh_vien);
+    FILE *fp = fopen("danhsachsinhvien.txt", "w+");
+    sinhvien danhsach;
+
+    strcpy(danhsach.ten_sinh_vien, "");
+    strcpy(danhsach.ma_sinh_vien, "");
+    strcpy(danhsach.so_dien_thoai_sinh_vien, "");
+
+    printf("Tên sinh viên là: %d\n", danhsach.ten_sinh_vien);
+    printf("Mã sinh viên là: %d\n", danhsach.ma_sinh_vien);
+    printf("Số điện thoại của sinh viên là: %d", danhsach.so_dien_thoai_sinh_vien);
 
     return 0;
 }
